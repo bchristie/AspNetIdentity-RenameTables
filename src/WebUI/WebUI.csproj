@@ -168,6 +168,10 @@
     <Compile Include="Migrations\201505082008094_AspNetIdentity_Init.Designer.cs">
       <DependentUpon>201505082008094_AspNetIdentity_Init.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201505082014042_AspNetIdentity_RenameTables.cs" />
+    <Compile Include="Migrations\201505082014042_AspNetIdentity_RenameTables.Designer.cs">
+      <DependentUpon>201505082014042_AspNetIdentity_RenameTables.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -245,6 +249,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201505082008094_AspNetIdentity_Init.resx">
       <DependentUpon>201505082008094_AspNetIdentity_Init.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201505082014042_AspNetIdentity_RenameTables.resx">
+      <DependentUpon>201505082014042_AspNetIdentity_RenameTables.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
